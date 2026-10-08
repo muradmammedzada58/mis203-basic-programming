@@ -21,6 +21,7 @@ _**UPDATE:** Chaneged the code so it creates only one .CSV sheet and saves all t
 
 
 ## **Week 03 - AI Tool Note**
+**AI Tool Used:** Claude Fable 5.1 <br>
 **Prompt Used:** Create a Python script that asks for customers name, age, day of the week and if the customer is a student or not. Then, using the given table of discounts, calculate the final price of the movie ticket<br><br>
 **What did you change?** Added the same custom script that I used before. When the user writes 'q' in console code stops and summary prints as a single .csv file on the desktop of the user <br><br>
 **Tests:** <br>
@@ -28,3 +29,14 @@ _**UPDATE:** Chaneged the code so it creates only one .CSV sheet and saves all t
 *Test 2: Ruzgar, age 65, weekday, student yes → 100.00 TRY (Senior)*<br>
 *Test 3: Melek, age 12, weekend, student yes → 150.00 TRY (Child)*<br><br>
 **Why does the order of the rules matter?** The order of discount rules matters to avoid client getting unfair price. For example, if a 4 year old student (idk how it's possible but let's pretend) buys a ticket, without any order he/she could get a student price even though, she can apply to a free ticket due to his/her age. The strict order of discount rules helps us to avoid these kind of situations<br><br><br>
+
+
+## **Week 04 - AI Tool Note**
+**AI Tool Used:** Claude Fable 5.1 <br>
+**Prompt Used:** Make a simple neon-style dodge game in Python using pygame and random. A ship at the bottom moves left and right with the arrow keys, pink blocks fall from the top and get faster over time, and touching one shows "GAME OVER" with Space to retry. Show the score and best score, add a scrolling starfield and retro scanlines, and keep it in one file with no classes<br><br>
+**What did you change?** Added comment lines explaining what certain parts of code does and how to change game settings<br><br>
+**How to run the game:**<br>
+*1. Open terminal in the folder with neon_dodger.py*<br>
+*2. Type "**pip install pygame-ce**" (for Python 3.14 or newer)*<br>
+*3. Type "**python neon_dodger.py**" and run the game*<br><br>
+**Controls:** Left/Right arrows or A/D to move, Space to retry after a crash, Esc to quit.<br><br><br>
