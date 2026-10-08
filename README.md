@@ -36,7 +36,7 @@ _**UPDATE:** Chaneged the code so it creates only one .CSV sheet and saves all t
 **Prompt Used:** Make a simple neon-style dodge game in Python using pygame and random. A ship at the bottom moves left and right with the arrow keys, pink blocks fall from the top and get faster over time, and touching one shows "GAME OVER" with Space to retry. Show the score and best score, add a scrolling starfield and retro scanlines, and keep it in one file with no classes<br><br>
 **What did you change?** Added comment lines explaining what certain parts of code does and how to change game settings<br><br>
 **How to run the game:**<br>
-*1. Open terminal in the folder with neon_dodger.py*<br>
-*2. Type "**pip install pygame-ce**" (for Python 3.14 or newer)*<br>
-*3. Type "**python neon_dodger.py**" and run the game*<br><br>
+*1. Run CMD as administrator and run command "**pip install pygame-ce**" (for python version 3.14 and higher)*<br>
+*2. Double-click and open "**neon_dodger.py**" file*<br>
+*3. If double-click doesn't work, just run "**python neon_dodger.py**" in CMD from the "week04" folder*<br><br>
 **Controls:** Left/Right arrows or A/D to move, Space to retry after a crash, Esc to quit.<br><br><br>
